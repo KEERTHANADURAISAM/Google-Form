@@ -13,6 +13,7 @@ import { TextField } from "@mui/material";
 import SectionAppBar from "./SectionAppBar";
 import MainCard from "./MainCard";
 import TextEditorQuill from "./TextEditorQuill";
+import FormContainer from "./FormContainer";
 const FormModel = () => {
   return (
    
@@ -75,6 +76,9 @@ const FormModel = () => {
       <div>
         <SectionAppBar/>
       </div>
+      </div>
+      <div>
+        <FormContainer/>
       </div>
     </div>
   

@@ -71,12 +71,11 @@ const SectionAppBar = ({ onClick }) => {
         }}
       >
         <Tooltip title="Add question">
-          <Link to="/addform">
+          
             <IconButton onClick={onClick}>
               <AddCircleOutlineRoundedIcon />
             </IconButton>
-          </Link>
-        </Tooltip>
+                </Tooltip>
         <Tooltip title="Import question">
           <IconButton>
             <UploadFileIcon />
