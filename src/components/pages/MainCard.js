@@ -21,7 +21,7 @@ import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SectionAppBar from "./SectionAppBar";
 
-const MainCard = ({ form, handleChange, handleDelete, handleDuplicate }) => {
+const MainCard = ({ form, handleChange, handleDelete, handleDuplicate},{content }) => {
   if (!form) return null;
   return (
   
@@ -38,6 +38,9 @@ const MainCard = ({ form, handleChange, handleDelete, handleDuplicate }) => {
         <ImageIcon size="small" />
         <FormOptions />
       </CardContent>
+      <Box>
+{content}
+      </Box>
       <Divider />
       <CardActions
         style={{

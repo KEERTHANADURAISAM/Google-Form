@@ -29,6 +29,8 @@ import LinearScale from "./LinearScale";
 import TimeOption from "./TimeOption";
 import FileUpload from "./FileUpload";
 import CheckBoxegrid from "./CheckBoxegrid";
+import MainForm from "./MainForm";
+import MainCard from "./MainCard";
 
 
 
@@ -160,11 +162,13 @@ const FormOptions = () => {
       <Box sx={{
           display: "flex", // Makes this a flex container
           flexDirection: "column", // Arranges items in a column by default
+          justifyContent:"flex-start",
           gap: 2, // Adds space between the items
           mt: 2, // Adds margin-top
+          mr:12,
         }}> 
         {/* Render the appropriate component based on the choice */}
-        {renderComponent()}
+        <MainCard choices={renderComponent()}/>
       </Box>
     </Box>
   );

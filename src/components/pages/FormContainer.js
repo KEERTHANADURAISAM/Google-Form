@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Button } from "@mui/material";
 import MainCard from "./MainCard";
 import SectionAppBar from "./SectionAppBar";
+import FormOptions from "./FormOptions";
 
 const FormContainer = () => {
   const [forms, setForms] = useState([
@@ -45,7 +46,9 @@ const FormContainer = () => {
           handleDuplicate={() => handleDuplicateForm(index)}
         />
       ))}
-     
+     <Box>
+   
+     </Box>
       <Box mt={2}>
       {forms.map((form, index) => (
         <SectionAppBar key={index} onClick={handleAddForm} />
