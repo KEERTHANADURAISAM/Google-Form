@@ -4,7 +4,7 @@ import Header from "./components/pages/Header";
 import LandingPage from "./components/pages/LandingPage";
 import FormModel from "./components/pages/FormModel";
 import TextEditorQuill from "./components/pages/TextEditorQuill";
- import Responses from "./components/pages/Responses"
+import Responses from "./components/pages/Responses"
 import FormOptions from "./components/pages/FormOptions";
 import MainCard from "./components/pages/MainCard";
 import SectionAppBar from "./components/pages/SectionAppBar";
