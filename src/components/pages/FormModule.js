@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/Form.css";
-import { BiCustomize, BiUndo } from "react-icons/bi";
 import { FaRegEye, FaRegFolder } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { SiGoogleforms } from "react-icons/si";
